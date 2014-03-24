@@ -10,9 +10,10 @@ import importlib
 # for provider in provider_list:
 #     print provider.get_courses()
 
-provider_list = [{"module_name": "providers.coursera", "class_name": "Coursera", "display_name": "Coursera"}]
+provider_list = ["Coursera"]
 
 for provider in provider_list:
-    mod = importlib.import_module(provider["module_name"])
-    func = getattr(mod, provider['class_name'])()
-    print getattr(func, "get_courses")()
+    print "Collecting Courses for provider: {}".format(provider)
+    mod = importlib.import_module("providers." + provider.lower())
+    func = getattr(mod, provider)()
+    print json.dumps(getattr(func, "get_courses")(), sort_keys=True, indent=4, separators=(',', ': '))
