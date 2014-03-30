@@ -1,6 +1,7 @@
 from provider import ProviderBase
 import requests
 import json
+from datetime import date
 
 
 class Coursera(ProviderBase):
@@ -21,8 +22,6 @@ class Coursera(ProviderBase):
         catalog = []
         for item in courses:
             course = self.get_schema_map()
-            print json.dumps(item, sort_keys=True, indent=4, separators=(',', ': '))
-            break
             try:
                 #get required items
                 course['course_name'] = item['name']
@@ -30,20 +29,33 @@ class Coursera(ProviderBase):
                 course['provider'] = "coursera"
                 course['providers_id'] = item["short_name"]
                 course['language'] = self.get_valid_language(item['language'])
+                course['instructor'] = item['instructor']
 
                 #get the data we need from the full course detail
                 more_details = self.__get_course_detail(course["providers_id"])
 
-                course['description'] = more_details.get("about_the_course", "not found")
+                course['full_description'] = more_details.get("about_the_course", "not found")
             except Exception("KeyError"):
                 #we don't have all required fields, skip for now
                 #log it
                 continue
 
-            #get optional field
+            #get optional fields
             course['short_description'] = item.get('short_description', None)
+            course['categories'] = item.get('categories', [])
             catalog.append(item['short_name'])
 
+            #get the session data
+            for c in item.get('courses'):
+                session = {}
+                session['duration'] = c.get('duration_string', None)
+                session['provider_session_id'] = c.get('id', None)
+                #get Start Date
+                if all(name in c for name in ['start_year', 'start_month', 'start_day']):
+                    session['start_date'] = date(c['start_year'], c['start_month'], c['start_day']).strftime('%Y%m%d')
+                else:
+                    continue
+                course['sessions'].append(session)
             self.course_data.append(course)
             #quit at one entry
             break
