@@ -16,4 +16,6 @@ for provider in provider_list:
     print "Collecting Courses for provider: {}".format(provider)
     mod = importlib.import_module("providers." + provider.lower())
     func = getattr(mod, provider)()
-    print json.dumps(getattr(func, "get_courses")(), sort_keys=True, indent=4, separators=(',', ': '))
+    data = getattr(func, "get_courses")()
+
+    print len(data)

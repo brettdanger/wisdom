@@ -23,10 +23,8 @@ class ProviderBase(object):
                 "video_type": None,
                 "video_id": None
             },
-            "prerequisites": [],
             "short_description": None,
             "full_description": None,
-            "suggested_reading": [],
             "course_url": None,
             "institution": {
                 "name": None,
