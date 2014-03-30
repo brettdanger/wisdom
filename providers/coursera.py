@@ -10,18 +10,18 @@ class Coursera(ProviderBase):
         self.course_data = []
 
     def get_courses(self):
-        #coursera_url = "https://www.coursera.org/maestro/api/topic/list?full=1"
+        coursera_url = "https://www.coursera.org/maestro/api/topic/list?full=1"
         #open cached copy
         #check cached copy age get new copy if it is too old
-        with open('_cache/coursera_list.json') as f:
-            data = f.read()
-            courses = json.loads(data)
+        #with open('_cache/coursera_list.json') as f:
+        #   data = f.read()
+        #    courses = json.loads(data)
 
-        #response = requests.get(coursera_url)
-        #for item in response.json():
+        response = requests.get(coursera_url)
+        courses = response.json()
         #print json.dumps(courses[0], sort_keys=True, indent=4, separators=(',', ': '))
         catalog = []
-        for item in courses[0:20]:
+        for item in courses:
             course = self.get_schema_map()
             print "Processing Course: Coursera - {}".format(item.get("name", "Unknown"))
             try:

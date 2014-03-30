@@ -1,14 +1,5 @@
-import json
 from providers import *
-
 import importlib
-
-# provider_list = []
-# coursera = coursera.Coursera()
-# provider_list.append(coursera)
-
-# for provider in provider_list:
-#     print provider.get_courses()
 
 provider_list = ["Coursera"]
 
