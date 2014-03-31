@@ -1,6 +1,5 @@
 from provider import ProviderBase
 import requests
-import json
 from datetime import date
 from hashlib import md5
 
@@ -11,19 +10,13 @@ class Coursera(ProviderBase):
 
     def get_courses(self):
         coursera_url = "https://www.coursera.org/maestro/api/topic/list?full=1"
-        #open cached copy
-        #check cached copy age get new copy if it is too old
-        #with open('_cache/coursera_list.json') as f:
-        #   data = f.read()
-        #    courses = json.loads(data)
 
         response = requests.get(coursera_url)
         courses = response.json()
-        #print json.dumps(courses[0], sort_keys=True, indent=4, separators=(',', ': '))
         catalog = []
         for item in courses:
             course = self.get_schema_map()
-            print "Processing Course: Coursera - {}".format(item.get("name", "Unknown"))
+            print "Processing Course: Coursera - {}".format(item.get("name", "Unknown").encode('utf-8'))
             try:
                 #get required items
                 course['course_name'] = item['name']
@@ -39,7 +32,7 @@ class Coursera(ProviderBase):
                 institution = {
                     "name": university['name'],
                     "description": university.get("description", None),
-                    "id": md5(university['name']).hexdigest(),
+                    "id": md5(university['name'].encode('utf-8')).hexdigest(),
                     "website": university["home_link"],
                     "logo_url": university["logo"],
                     "city": university["location_city"],
@@ -52,7 +45,7 @@ class Coursera(ProviderBase):
                 more_details = self.__get_course_detail(course["providers_id"])
 
                 course['full_description'] = more_details.get("about_the_course", "not found")
-            except Exception("KeyError"):
+            except KeyError:
                 #we don't have all required fields, skip for now
                 #log it
                 continue
@@ -103,5 +96,4 @@ class Coursera(ProviderBase):
 
     def __get_course_detail(self, id):
         response = requests.get("https://www.coursera.org/maestro/api/topic/information?topic-id=" + id)
-        #print json.dumps(response.json(), sort_keys=True, indent=4, separators=(',', ': '))
         return response.json()

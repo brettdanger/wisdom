@@ -2,3 +2,4 @@ requests
 pymongo
 mock
 nose
+coverage

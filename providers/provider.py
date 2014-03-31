@@ -6,6 +6,7 @@ class ProviderBase(object):
 
     @abstractmethod
     def get_courses(self):
+        #abstract implemented in each provider
         pass
 
     @staticmethod
@@ -48,7 +49,8 @@ class ProviderBase(object):
     def get_valid_language(language):
         language_map = {
             "en": "english",
-            "english": "english"
+            "english": "english",
+            "ja": "japanese"
         }
 
         return language_map.get(language, None)
