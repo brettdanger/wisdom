@@ -4,6 +4,7 @@ from providers.coursera import Coursera
 import json
 
 
+#setup our mock responses
 class ListResponse:
     def json(self):
         with open('test/stubs/coursera_courses.json') as f:
@@ -28,6 +29,7 @@ class BadCourseResponse:
         return course
 
 
+#define urls to response object
 def get(*args):
     if args[0] == "https://www.coursera.org/maestro/api/topic/list?full=1":
         return ListResponse()
@@ -39,6 +41,7 @@ def get(*args):
         print "nothing"
 
 
+#test coursera provider
 class CourseraTest(unittest.TestCase):
     def setUp(self):
         pass

@@ -1,7 +1,6 @@
 from provider import ProviderBase
 import requests
 from datetime import date
-from hashlib import md5
 
 
 class Coursera(ProviderBase):
@@ -15,24 +14,24 @@ class Coursera(ProviderBase):
         courses = response.json()
         catalog = []
         for item in courses:
-            course = self.get_schema_map()
+            course = Coursera.get_schema_map()
             print "Processing Course: Coursera - {}".format(item.get("name", "Unknown").encode('utf-8'))
             try:
                 #get required items
                 course['course_name'] = item['name']
                 course['providers_id'] = item["short_name"]
                 course['provider'] = "coursera"
-                course['providers_id'] = item["short_name"]
-                course['language'] = self.get_valid_language(item['language'])
+                course['language'] = Coursera.get_valid_language(item['language'])
                 course['instructor'] = item['instructor']
                 course['course_url'] = "http://class.coursera.org/{}/".format(item["short_name"])
-
+                #lets create an ID for the record
+                course['id'] = Coursera.create_id(course['provider'] + course["course_name"])
                 #get institution data
                 university = item['universities'][0]
                 institution = {
                     "name": university['name'],
                     "description": university.get("description", None),
-                    "id": md5(university['name'].encode('utf-8')).hexdigest(),
+                    "id": Coursera.create_id(university['name']),
                     "website": university["home_link"],
                     "logo_url": university["logo"],
                     "city": university["location_city"],

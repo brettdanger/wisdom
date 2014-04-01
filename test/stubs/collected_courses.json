@@ -1,0 +1,610 @@
+[
+  {
+    "sessions": [
+      {
+        "duration": "10 weeks",
+        "provider_session_id": 76,
+        "start_date": "20120423"
+      },
+      {
+        "duration": "11 weeks",
+        "provider_session_id": 150,
+        "start_date": "20121001"
+      },
+      {
+        "duration": "11 weeks",
+        "provider_session_id": 970514,
+        "start_date": "20130211"
+      },
+      {
+        "duration": "11 weeks",
+        "provider_session_id": 972209,
+        "start_date": "20140317"
+      }
+    ],
+    "providers_id": "compilers",
+    "full_description": "<p>This course will discuss the major ideas used today in the implementation of programming language compilers, including lexical analysis, parsing, syntax-directed translation, abstract syntax trees, types and type checking, intermediate languages, dataflow analysis, program optimization, code generation, and runtime systems. As a result, you will learn how a program written in a high-level language designed for humans is systematically translated into a program written in low-level assembly more suited to machines. Along the way we will also touch on how programming languages are designed, programming language semantics, and why there are so many different kinds of programming languages.</p>\n<p>The course lectures will be presented in short videos. To help you master the material, there will be in-lecture questions to answer, quizzes, and two exams: a midterm and a final. There will also be homework in the form of exercises that ask you to show a sequence of logical steps needed to derive a specific result, such as the sequence of steps a type checker would perform to type check a piece of code, or the sequence of steps a parser would perform to parse an input string. This checking technology is the result of ongoing research at Stanford into developing innovative tools for education, and we're excited to be the first course ever to make it available to students.</p>\nAn optional course project is to write a complete compiler for COOL, the Classroom Object Oriented Language. COOL has the essential features of a realistic programming language, but is small and simple enough that it can be implemented in a few thousand lines of code. Students who choose to do the project can implement it in either C++ or Java.<br>I hope you enjoy the course!\n<p><strong>Why Study Compilers?</strong></p>\nEverything that computers do is the result of some program, and all of the millions of programs in the world are written in one of the many thousands of programming languages that have been developed over the last 60 years. Designing and implementing a programming language turns out to be difficult; some of the best minds in computer science have thought about the problems involved and contributed beautiful and deep results. Learning something about compilers will show you the interplay of theory and practice in computer science, especially how powerful general ideas combined with engineering insight can lead to practical solutions to very hard problems. Knowing how a compiler works will also make you a better programmer and increase your ability to learn new programming languages quickly.\n<div></div>",
+    "id": "d114184968727a76272e32f6e4417e78",
+    "instructor": "Alex Aiken, Professor",
+    "institution": {
+      "website": "http://online.stanford.edu/",
+      "city": "Palo Alto",
+      "state": "CA",
+      "name": "Stanford University",
+      "country": "US",
+      "logo_url": "https://coursera-university-assets.s3.amazonaws.com/d8/4c69670e0826e42c6cd80b4a02b9a2/stanford.png",
+      "id": "269fc60adb004b0b719031a97aedf5e9",
+      "description": "The Leland Stanford Junior University, commonly referred to as Stanford University or Stanford, is an American private research university located in Stanford, California on an 8,180-acre (3,310 ha) campus near Palo Alto, California, United States."
+    },
+    "categories": [
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 11,
+        "short_name": "cs-systems",
+        "name": "Computer Science: Systems & Security"
+      },
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 12,
+        "short_name": "cs-programming",
+        "name": "Computer Science: Software Engineering"
+      }
+    ],
+    "workload": "8-10 hours/week, 10-20 hours/week with programming assignments",
+    "course_name": "Compilers",
+    "language": "english",
+    "media": {
+      "icon_url": "https://s3.amazonaws.com/coursera/topics/compilers/large-icon.png",
+      "video_id": "sm0QQO-WZlM",
+      "video_type": "mp4",
+      "video_url": "https://d1a2y8pfnfh44t.cloudfront.net/sm0QQO-WZlM/",
+      "photo_url": "https://s3.amazonaws.com/coursera/topics/compilers/large-icon.png"
+    },
+    "tags": [
+      "Computer Science: Systems & Security",
+      "Computer Science: Software Engineering"
+    ],
+    "course_url": "http://class.coursera.org/compilers/",
+    "provider": "coursera",
+    "short_description": "This course will discuss the major ideas used today in the implementation of programming language compilers. You will learn how a program written in a high-level language designed for humans is systematically translated into a program written in low-level assembly more suited to machines!"
+  },
+  {
+    "sessions": [],
+    "providers_id": "security",
+    "full_description": "<p>In this class you will learn how to design secure systems and write secure code. You will learn how to find vulnerabilities in code and how to design software systems that limit the impact of security vulnerabilities. We will focus on principles for building secure systems and give many real world examples. In addition, the course will cover topics such as:</p><ul><li>memory safety vulnerabilities</li><li>techniques and tools for vulnerability detection and defense</li><li>security principles such as sandboxing, isolation and least privilege</li><li>mobile platform and application security</li><li>basic crypto concepts</li><li>web security</li><li>network security</li><li>malware detection and defense</li></ul><p>Course homework and labs will help students practice the concepts and techniques learned in class, such as how to find vulnerabilities and how to fix them. The labs and projects are designed to help students practice the principles of secure system design.</p>",
+    "id": "daf1d740782b94d750502fcb18a284fa",
+    "instructor": "Dan Boneh and Dawn Song",
+    "institution": {
+      "website": "http://online.stanford.edu/",
+      "city": "Palo Alto",
+      "state": "CA",
+      "name": "Stanford University",
+      "country": "US",
+      "logo_url": "https://coursera-university-assets.s3.amazonaws.com/d8/4c69670e0826e42c6cd80b4a02b9a2/stanford.png",
+      "id": "269fc60adb004b0b719031a97aedf5e9",
+      "description": "The Leland Stanford Junior University, commonly referred to as Stanford University or Stanford, is an American private research university located in Stanford, California on an 8,180-acre (3,310 ha) campus near Palo Alto, California, United States."
+    },
+    "categories": [
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 11,
+        "short_name": "cs-systems",
+        "name": "Computer Science: Systems & Security"
+      }
+    ],
+    "workload": "5-7 hours/week",
+    "course_name": "Computer Security",
+    "language": "english",
+    "media": {
+      "icon_url": "https://coursera-course-photos.s3.amazonaws.com/16/14c599959bd3d6e7b0a710e7d4eb5f/more-height_2.png",
+      "video_id": "KXsz5aPCYFM",
+      "video_type": "mp4",
+      "video_url": "https://d1a2y8pfnfh44t.cloudfront.net/KXsz5aPCYFM/",
+      "photo_url": "https://coursera-course-photos.s3.amazonaws.com/08/22d8b0b6c3bedfc930f9e42c067b82/more-height_2.png"
+    },
+    "tags": [
+      "Computer Science: Systems & Security"
+    ],
+    "course_url": "http://class.coursera.org/security/",
+    "provider": "coursera",
+    "short_description": "Learn how to design secure systems and write secure code. "
+  },
+  {
+    "sessions": [
+      {
+        "duration": "7 weeks",
+        "provider_session_id": 46,
+        "start_date": "20120319"
+      },
+      {
+        "duration": "7 weeks",
+        "provider_session_id": 86,
+        "start_date": "20130107"
+      },
+      {
+        "duration": "9 weeks",
+        "provider_session_id": 970449,
+        "start_date": "20131014"
+      }
+    ],
+    "providers_id": "gametheory",
+    "full_description": "Popularized by movies such as \"A Beautiful Mind\", game theory is the mathematical modeling of strategic interaction among rational (and irrational) agents. Beyond what we call 'games' in common language, such as chess, poker, soccer, etc., it includes the modeling of conflict among nations, political campaigns, competition among firms, and trading behavior in markets such as the NYSE. How could you begin to model eBay, Google keyword auctions, and peer to peer file-sharing networks, without accounting for the incentives of the people using them? The course will provide the basics: representing games and strategies, the extensive form (which computer scientists call game trees), Bayesian games (modeling things like auctions), repeated and stochastic games, and more. We'll include a variety of examples including classic games and real-world applications.",
+    "id": "758e696e821353bac1f7cf1dcd42bc5f",
+    "instructor": "Kevin Leyton-Brown, Matthew O. Jackson and Yoav Shoham",
+    "institution": {
+      "website": "http://online.stanford.edu/",
+      "city": "Palo Alto",
+      "state": "CA",
+      "name": "Stanford University",
+      "country": "US",
+      "logo_url": "https://coursera-university-assets.s3.amazonaws.com/d8/4c69670e0826e42c6cd80b4a02b9a2/stanford.png",
+      "id": "269fc60adb004b0b719031a97aedf5e9",
+      "description": "The Leland Stanford Junior University, commonly referred to as Stanford University or Stanford, is an American private research university located in Stanford, California on an 8,180-acre (3,310 ha) campus near Palo Alto, California, United States."
+    },
+    "categories": [
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 1,
+        "short_name": "cs-theory",
+        "name": "Computer Science: Theory"
+      },
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 2,
+        "short_name": "economics",
+        "name": "Economics & Finance"
+      },
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 17,
+        "short_name": "cs-ai",
+        "name": "Computer Science: Artificial Intelligence"
+      }
+    ],
+    "workload": "5-7 hours/week",
+    "course_name": "Game Theory",
+    "language": "english",
+    "media": {
+      "icon_url": "https://s3.amazonaws.com/coursera/topics/gametheory/large-icon.png",
+      "video_id": "",
+      "video_type": "mp4",
+      "video_url": "https://d1a2y8pfnfh44t.cloudfront.net/d1k7DNuRBoI/",
+      "photo_url": "https://s3.amazonaws.com/coursera/topics/gametheory/large-icon.png"
+    },
+    "tags": [
+      "Computer Science: Theory",
+      "Economics & Finance",
+      "Computer Science: Artificial Intelligence"
+    ],
+    "course_url": "http://class.coursera.org/gametheory/",
+    "provider": "coursera",
+    "short_description": "The course covers the basics: representing games and strategies, the extensive form (which computer scientists call game trees), repeated and stochastic games, coalitional games, and Bayesian games (modeling things like auctions)."
+  },
+  {
+    "sessions": [
+      {
+        "duration": "10 weeks",
+        "provider_session_id": 80,
+        "start_date": "20120910"
+      },
+      {
+        "duration": "10 weeks",
+        "provider_session_id": 970375,
+        "start_date": "20130907"
+      },
+      {
+        "duration": "10 weeks",
+        "provider_session_id": 972128,
+        "start_date": "20140906"
+      }
+    ],
+    "providers_id": "modernpoetry",
+    "full_description": "In this fast-paced course we will read and encounter and discuss a great range of modern and contemporary U.S. poets working in the \"experimental mode,\" starting with the 19th-century proto-modernists Emily Dickinson and Walt Whitman and ending with 21st-century conceptual poetics. Aside from providing a perhaps handy or helpful survey and chronology of 20th- and 21st-century poetry, this course offers a way of understanding general cultural transitions from modernism to postmodernism. Some people may wish to enroll as much to gain an understanding of the modernism/postmodernism problem through a study of poetry as to gain access to the work of these many poets. Participants do not need to have any prior knowledge of poetry or poetics. The instructor, Al Filreis, rarely lectures, and frequently calls for \"the end of the lecture as we know it\"; instead, the video-recorded lessons will consist of collaborative close readings led by Filreis, seminar-style -- offering models or samples of readers' interpretations of these knotty but powerful poems, aided by the poetry-minded denizens of the Kelly Writers House on the campus of the University of Pennsylvania.",
+    "id": "e2e795a9dce6fd04670743f49f9d7a7b",
+    "instructor": "Al Filreis",
+    "institution": {
+      "website": "",
+      "city": "Philadelphia",
+      "state": "PA",
+      "name": "University of Pennsylvania",
+      "country": "US",
+      "logo_url": "https://coursera-university-assets.s3.amazonaws.com/7c/5d03cbe2cb87974be7f83cc1080af8/logo-penn-front.png",
+      "id": "23dfb8046c745c59c2011a927950c49c",
+      "description": "The University of Pennsylvania (commonly referred to as Penn) is a private university, located in Philadelphia, Pennsylvania, United States. A member of the Ivy League, Penn is the fourth-oldest institution of higher education in the United States, and considers itself to be the first university in the United States with both undergraduate and graduate studies. "
+    },
+    "categories": [
+      {
+        "mailing_list_id": 11,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 6,
+        "short_name": "humanities",
+        "name": "Humanities "
+      },
+      {
+        "mailing_list_id": null,
+        "description": "",
+        "id": 22,
+        "short_name": "arts",
+        "name": "Arts"
+      }
+    ],
+    "workload": "5-10 hours/week",
+    "course_name": "Modern & Contemporary American Poetry",
+    "language": "english",
+    "media": {
+      "icon_url": "https://s3.amazonaws.com/coursera/topics/modernpoetry/large-icon.png",
+      "video_id": "",
+      "video_type": "mp4",
+      "video_url": "https://d1a2y8pfnfh44t.cloudfront.net/PUok9h6uvO0/",
+      "photo_url": "https://s3.amazonaws.com/coursera/topics/modernpoetry/large-icon.png"
+    },
+    "tags": [
+      "Humanities ",
+      "Arts"
+    ],
+    "course_url": "http://class.coursera.org/modernpoetry/",
+    "provider": "coursera",
+    "short_description": "ModPo is a fast-paced introduction to modern and contemporary U.S. poetry, with an emphasis on experimental verse, from Dickinson and Whitman to the present. Participants (who need no prior experience with poetry) will learn how to read poems that are supposedly \"difficult.\""
+  },
+  {
+    "sessions": [
+      {
+        "duration": "6 weeks",
+        "provider_session_id": 96,
+        "start_date": "20120611"
+      }
+    ],
+    "providers_id": "soc101",
+    "full_description": "We live in a world that is changing very quickly. Sociology gives us the tools to understand our own lives and those quite remote from us. The premise of this class is that in order to benefit from the sociological perspective, we need to learn how to ask certain basic questions. We need to know how to seek answers through methods that strive to be systematic and generalizable.We will begin with some of the essential questions: How are the things that we take to be natural socially constructed? How do we live today? How determined is social life? Does the individual make a difference? How is social order possible? Then we will ask what techniques are available to make sense of these questions.  We will review comparative, historical, demographic, experimental, and ethnographic methods. Along the way, we will study core concepts including ethnocentrism, social networks, community, unanticipated consequences, social capital, race, class, and gender. <br><br> We will strive to understand how interaction in micro-level contexts affects larger social processes and how such macro-level processes influence our day to day lives. We will learn to conceive of inequality by asking how race, class, and gender work in tandem. We will address one of the crises of recent sociology -- whether we can actually isolate the effects of social context. We will think about how social science is changing at a time when we are literally swimming in oceans of data generated by the internet.",
+    "id": "bf9aa6c6ab2be47389e10e529a76795e",
+    "instructor": "Mitchell Duneier",
+    "institution": {
+      "website": "",
+      "city": "Princeton",
+      "state": "NJ",
+      "name": "Princeton University",
+      "country": "US",
+      "logo_url": "https://coursera-university-assets.s3.amazonaws.com/94/cc9200e336d38ce029873b13cbe93b/logo-princeton-front.png",
+      "id": "5bf483e0d0c0d430be37dd8a34215614",
+      "description": "Princeton University is a private research university located in Princeton, New Jersey, United States. It is one of the eight universities of the Ivy League, and one of the nine Colonial Colleges founded before the American Revolution."
+    },
+    "categories": [
+      {
+        "mailing_list_id": null,
+        "description": "",
+        "id": 20,
+        "short_name": "socsci",
+        "name": "Social Sciences"
+      }
+    ],
+    "workload": "5-7 hours/week",
+    "course_name": "Introduction to Sociology",
+    "language": "english",
+    "media": {
+      "icon_url": "https://s3.amazonaws.com/coursera/topics/soc101/large-icon.png",
+      "video_id": "PuULIH_RvOM",
+      "video_type": "mp4",
+      "video_url": "https://d1a2y8pfnfh44t.cloudfront.net/PuULIH_RvOM/",
+      "photo_url": "https://s3.amazonaws.com/coursera/topics/soc101/large-icon.png"
+    },
+    "tags": [
+      "Social Sciences"
+    ],
+    "course_url": "http://class.coursera.org/soc101/",
+    "provider": "coursera",
+    "short_description": "In this class we will cover the essentials of sociology, to help you better understand your own life and situations far from your experience."
+  },
+  {
+    "sessions": [
+      {
+        "duration": "11 weeks",
+        "provider_session_id": 100,
+        "start_date": "20120930"
+      },
+      {
+        "duration": "11 weeks",
+        "provider_session_id": 970589,
+        "start_date": "20130923"
+      }
+    ],
+    "providers_id": "comparch",
+    "full_description": "This course forms a strong foundation in the understanding and design of modern computing systems. Building on a computer organization base, this course explores techniques that go into designing a modern microprocessor. Fundamental understanding of computer architecture is key not only for students interested in hardware and processor design, but is a foundation for students interested in compilers, operating systems, and high performance programming. This course will explore how the computer architect can utilize the increasing number of transistors available to improve the performance of a processor. Focus will be given to architectures that can exploit different forms of parallelism, whether they be implicit or explicit. This course covers architectural techniques such as multi-issue superscalar processors, out-of-order processors, Very Long Instruction Word (VLIW) processors, advanced caching, and multiprocessor systems.",
+    "id": "e8f3bbccb74dc354b2d760514483d8ab",
+    "instructor": "David Wentzlaff",
+    "institution": {
+      "website": "",
+      "city": "Princeton",
+      "state": "NJ",
+      "name": "Princeton University",
+      "country": "US",
+      "logo_url": "https://coursera-university-assets.s3.amazonaws.com/94/cc9200e336d38ce029873b13cbe93b/logo-princeton-front.png",
+      "id": "5bf483e0d0c0d430be37dd8a34215614",
+      "description": "Princeton University is a private research university located in Princeton, New Jersey, United States. It is one of the eight universities of the Ivy League, and one of the nine Colonial Colleges founded before the American Revolution."
+    },
+    "categories": [
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 11,
+        "short_name": "cs-systems",
+        "name": "Computer Science: Systems & Security"
+      },
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 15,
+        "short_name": "ee",
+        "name": "Engineering"
+      }
+    ],
+    "workload": "5-8 hours/week",
+    "course_name": "Computer Architecture",
+    "language": "english",
+    "media": {
+      "icon_url": "https://s3.amazonaws.com/coursera/topics/comparch/large-icon.png",
+      "video_id": "nkozG17Q_34",
+      "video_type": "mp4",
+      "video_url": "https://d1a2y8pfnfh44t.cloudfront.net/nkozG17Q_34/",
+      "photo_url": "https://s3.amazonaws.com/coursera/topics/comparch/large-icon.png"
+    },
+    "tags": [
+      "Computer Science: Systems & Security",
+      "Engineering"
+    ],
+    "course_url": "http://class.coursera.org/comparch/",
+    "provider": "coursera",
+    "short_description": "In this course, you will learn to design the computer architecture of complex modern microprocessors."
+  },
+  {
+    "sessions": [
+      {
+        "duration": "6 weeks",
+        "provider_session_id": 102,
+        "start_date": "20120903"
+      },
+      {
+        "duration": "12 weeks",
+        "provider_session_id": 970574,
+        "start_date": "20130922"
+      }
+    ],
+    "providers_id": "stats1",
+    "full_description": "<p>Statistics One is designed to be a comprehensive yet friendly introduction\n    to fundamental concepts in statistics. Comprehensive means that this course\n    provides a solid foundation for students planning to pursue more advanced\n    courses in statistics. Friendly means exactly that. The course assumes\n    very little background knowledge in statistics and introduces new concepts\n    with several fun and easy to understand examples. </p>\n<p>This course is, quite literally, for everyone. If you think you can't\n    learn statistics, this course is for you. If you had a statistics course\n    before but feel like you need a refresher, this course is for you. Even\n    if you are a relatively advanced researcher or analyst, this course provides\n    a foundation and a context that helps to put one’s work into perspective.</p>\n<p>Statistics One also provides an introduction to the R programming language.\n    All the examples and assignments will involve writing code in R and interpreting\n    R output. R software is free! What this means is you can download R, take\n    this course, and start programming in R after just a few lectures. That\n    said, this course is not a comprehensive guide to R or to programming in\n    general. </p>",
+    "id": "1b3aa3e46dcafcf8469231b2ddefe98a",
+    "instructor": "Andrew Conway",
+    "institution": {
+      "website": "",
+      "city": "Princeton",
+      "state": "NJ",
+      "name": "Princeton University",
+      "country": "US",
+      "logo_url": "https://coursera-university-assets.s3.amazonaws.com/94/cc9200e336d38ce029873b13cbe93b/logo-princeton-front.png",
+      "id": "5bf483e0d0c0d430be37dd8a34215614",
+      "description": "Princeton University is a private research university located in Princeton, New Jersey, United States. It is one of the eight universities of the Ivy League, and one of the nine Colonial Colleges founded before the American Revolution."
+    },
+    "categories": [
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 16,
+        "short_name": "stats",
+        "name": "Statistics and Data Analysis"
+      }
+    ],
+    "workload": "5-8 hours/week",
+    "course_name": "Statistics One",
+    "language": "english",
+    "media": {
+      "icon_url": "https://coursera-course-photos.s3.amazonaws.com/7c/7f9a5ca0231d151c230f3feb8f3c38/course-logo.png",
+      "video_id": "uzmp_iqLxzk",
+      "video_type": "mp4",
+      "video_url": "https://d1a2y8pfnfh44t.cloudfront.net/uzmp_iqLxzk/",
+      "photo_url": "https://coursera-course-photos.s3.amazonaws.com/81/df2e4c697721f4fa58e270fb810c36/course-logo.png"
+    },
+    "tags": [
+      "Statistics and Data Analysis"
+    ],
+    "course_url": "http://class.coursera.org/stats1/",
+    "provider": "coursera",
+    "short_description": "Statistics One is a comprehensive yet friendly introduction to statistics."
+  },
+  {
+    "sessions": [
+      {
+        "duration": "6 weeks",
+        "provider_session_id": 104,
+        "start_date": "20120812"
+      },
+      {
+        "duration": "6 weeks",
+        "provider_session_id": 970302,
+        "start_date": "20130204"
+      },
+      {
+        "duration": "6 weeks",
+        "provider_session_id": 970400,
+        "start_date": "20130823"
+      },
+      {
+        "duration": "6 weeks",
+        "provider_session_id": 971876,
+        "start_date": "20140131"
+      }
+    ],
+    "providers_id": "algs4partI",
+    "full_description": "An introduction to fundamental data types, algorithms, and data structures,\nwith emphasis on applications and scientific performance analysis of Java\nimplementations. Specific topics covered include: union-find algorithms;\nbasic iterable data types (stack, queues, and bags); sorting algorithms\n(quicksort, mergesort, heapsort) and applications; priority queues; binary\nsearch trees; red-black trees; hash tables; and symbol-table applications.",
+    "id": "50d885dba083f6803e2ecafd474e8270",
+    "instructor": "Kevin Wayne and Robert Sedgewick",
+    "institution": {
+      "website": "",
+      "city": "Princeton",
+      "state": "NJ",
+      "name": "Princeton University",
+      "country": "US",
+      "logo_url": "https://coursera-university-assets.s3.amazonaws.com/94/cc9200e336d38ce029873b13cbe93b/logo-princeton-front.png",
+      "id": "5bf483e0d0c0d430be37dd8a34215614",
+      "description": "Princeton University is a private research university located in Princeton, New Jersey, United States. It is one of the eight universities of the Ivy League, and one of the nine Colonial Colleges founded before the American Revolution."
+    },
+    "categories": [
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 1,
+        "short_name": "cs-theory",
+        "name": "Computer Science: Theory"
+      },
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 12,
+        "short_name": "cs-programming",
+        "name": "Computer Science: Software Engineering"
+      }
+    ],
+    "workload": "6-12 hours/week",
+    "course_name": "Algorithms, Part I",
+    "language": "english",
+    "media": {
+      "icon_url": "https://s3.amazonaws.com/coursera/topics/algs4partI/large-icon.png",
+      "video_id": "gZV5jVF8lJ8",
+      "video_type": "mp4",
+      "video_url": "https://d1a2y8pfnfh44t.cloudfront.net/gZV5jVF8lJ8/",
+      "photo_url": "https://s3.amazonaws.com/coursera/topics/algs4partI/large-icon.png"
+    },
+    "tags": [
+      "Computer Science: Theory",
+      "Computer Science: Software Engineering"
+    ],
+    "course_url": "http://class.coursera.org/algs4partI/",
+    "provider": "coursera",
+    "short_description": "This course covers the essential information that every serious programmer needs to know about algorithms and data structures, with emphasis on applications and scientific performance analysis of Java implementations. Part I covers basic iterable data types, sorting, and searching algorithms."
+  },
+  {
+    "sessions": [
+      {
+        "duration": "7 weeks",
+        "provider_session_id": 970478,
+        "start_date": "20130325"
+      },
+      {
+        "duration": "7 weeks",
+        "provider_session_id": 971271,
+        "start_date": "20131101"
+      },
+      {
+        "duration": "7 weeks",
+        "provider_session_id": 971968,
+        "start_date": "20140321"
+      }
+    ],
+    "providers_id": "algs4partII",
+    "full_description": "Part II covers graph-processing algorithms, including minimum spanning tree and shortest paths algorithms, and string processing algorithms, including string sorts, tries, substring search, regular expressions, and data compression, and concludes with an overview placing the contents of the course in a larger context.",
+    "id": "798c4770b3976ca27889ff3ee3490dcc",
+    "instructor": "Kevin Wayne and Robert Sedgewick",
+    "institution": {
+      "website": "",
+      "city": "Princeton",
+      "state": "NJ",
+      "name": "Princeton University",
+      "country": "US",
+      "logo_url": "https://coursera-university-assets.s3.amazonaws.com/94/cc9200e336d38ce029873b13cbe93b/logo-princeton-front.png",
+      "id": "5bf483e0d0c0d430be37dd8a34215614",
+      "description": "Princeton University is a private research university located in Princeton, New Jersey, United States. It is one of the eight universities of the Ivy League, and one of the nine Colonial Colleges founded before the American Revolution."
+    },
+    "categories": [
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 1,
+        "short_name": "cs-theory",
+        "name": "Computer Science: Theory"
+      },
+      {
+        "mailing_list_id": null,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 12,
+        "short_name": "cs-programming",
+        "name": "Computer Science: Software Engineering"
+      }
+    ],
+    "workload": "6-12 hours/week",
+    "course_name": "Algorithms, Part II",
+    "language": "english",
+    "media": {
+      "icon_url": "https://s3.amazonaws.com/coursera/topics/algs4partII/large-icon.png",
+      "video_id": "GO8frjxq25I",
+      "video_type": "mp4",
+      "video_url": "https://d1a2y8pfnfh44t.cloudfront.net/GO8frjxq25I/",
+      "photo_url": "https://s3.amazonaws.com/coursera/topics/algs4partII/large-icon.png"
+    },
+    "tags": [
+      "Computer Science: Theory",
+      "Computer Science: Software Engineering"
+    ],
+    "course_url": "http://class.coursera.org/algs4partII/",
+    "provider": "coursera",
+    "short_description": "This course covers the essential information that every serious programmer needs to know about algorithms and data structures, with emphasis on applications and scientific performance analysis of Java implementations."
+  },
+  {
+    "sessions": [
+      {
+        "duration": "7 weeks",
+        "provider_session_id": 120,
+        "start_date": "20120723"
+      }
+    ],
+    "providers_id": "worldmusic",
+    "full_description": "With the click of a mouse, now more than ever we are able to access sounds made by people from all around the world. And yet, most of us don't listen to the wide diversity of music available to us, probably because it sounds so strange. This class will open up the world of music to you. We begin with a brief history of recording technology, the music industry and the place of world music in that narrative; you are introduced to keywords for talking about music cross-culturally; and then proceed to half a dozen musical cultures around the world. In each of these musical cultures, we examine the ways in which music works in those distant cultures, how it sounds, what it means, who may perform it; and then we ask ourselves where this music has traveled and entered into the Western popular culture as entertainment, political discourse, or artistic purpose.",
+    "id": "1fc3f8c086a0da62da7ca32bbd6624e4",
+    "instructor": "Carol Muller",
+    "institution": {
+      "website": "",
+      "city": "Philadelphia",
+      "state": "PA",
+      "name": "University of Pennsylvania",
+      "country": "US",
+      "logo_url": "https://coursera-university-assets.s3.amazonaws.com/7c/5d03cbe2cb87974be7f83cc1080af8/logo-penn-front.png",
+      "id": "23dfb8046c745c59c2011a927950c49c",
+      "description": "The University of Pennsylvania (commonly referred to as Penn) is a private university, located in Philadelphia, Pennsylvania, United States. A member of the Ivy League, Penn is the fourth-oldest institution of higher education in the United States, and considers itself to be the first university in the United States with both undergraduate and graduate studies. "
+    },
+    "categories": [
+      {
+        "mailing_list_id": 11,
+        "description": "Our wide range of courses allows students to explore topics from many different fields of study. Sign up for a class today and join our global community of students and scholars!",
+        "id": 6,
+        "short_name": "humanities",
+        "name": "Humanities "
+      },
+      {
+        "mailing_list_id": null,
+        "description": "",
+        "id": 18,
+        "short_name": "music",
+        "name": "Music, Film, and Audio"
+      }
+    ],
+    "workload": "5-7 hours/week",
+    "course_name": "Listening to World Music",
+    "language": "english",
+    "media": {
+      "icon_url": "https://s3.amazonaws.com/coursera/topics/worldmusic/large-icon.png",
+      "video_id": "",
+      "video_type": "mp4",
+      "video_url": "https://d1a2y8pfnfh44t.cloudfront.net/uQ3vPGKrwVk/",
+      "photo_url": "https://s3.amazonaws.com/coursera/topics/worldmusic/large-icon.png"
+    },
+    "tags": [
+      "Humanities ",
+      "Music, Film, and Audio"
+    ],
+    "course_url": "http://class.coursera.org/worldmusic/",
+    "provider": "coursera",
+    "short_description": "Learn the ideas and vocabulary for listening to world music, and examine the music of several world music cultures and how they have entered into mainstream popular culture."
+  }
+]

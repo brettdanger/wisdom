@@ -1,4 +1,5 @@
 from abc import ABCMeta, abstractmethod
+from hashlib import md5
 
 
 class ProviderBase(object):
@@ -9,8 +10,8 @@ class ProviderBase(object):
         #abstract implemented in each provider
         pass
 
-    @staticmethod
-    def get_schema_map():
+    @classmethod
+    def get_schema_map(cls):
         course_schema = {
             "course_name": None,
             "provider": None,
@@ -45,8 +46,8 @@ class ProviderBase(object):
 
         return course_schema
 
-    @staticmethod
-    def get_valid_language(language):
+    @classmethod
+    def get_valid_language(cls, language):
         language_map = {
             "en": "english",
             "english": "english",
@@ -54,3 +55,7 @@ class ProviderBase(object):
         }
 
         return language_map.get(language, None)
+
+    @classmethod
+    def create_id(cls, id_string):
+        return md5(id_string.encode('utf-8')).hexdigest()
