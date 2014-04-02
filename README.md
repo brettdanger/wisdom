@@ -1,6 +1,6 @@
 ## Wisdom Backend
 
-Wisdom Backend is a Massive Open Online Course (MOOC) aggregation engine that is extensible for providers and courses. It will collect data from any providers enable in the ```config.yaml``` list. It will also save the data into any storage engines enabled in the ```config.yaml``` file.
+Wisdom Backend is a Massive Open Online Course (MOOC) aggregation engine that is extensible for providers and courses. It will collect data from any providers enabled in the ```config.yaml``` list. It will also save the data into any storage engines enabled in the ```config.yaml``` file.
 
 ###Currently Supported Providers:
 
@@ -26,7 +26,7 @@ Wisdom Backend is a Massive Open Online Course (MOOC) aggregation engine that is
 
 ###Purpose:
 
-Even though there are several MOOC lists and rating sites out there, none of them are very good.  I also want to build a full- stack site with ratings and collaboration tools, this is step 1.  Others are welcome to use to build something cool, please contribute storage engines or provider engines if you build them.  You can follow my progress on the full stack site at brettdangerfield.com.
+Even though there are several MOOC lists and rating sites out there, none of them are very good.  I also want to build a full-stack site with ratings and collaboration tools, this is step 1.  Others are welcome to use to build something cool, please contribute storage engines or provider engines if you build them.  You can follow my progress on the full stack site at brettdangerfield.com.
 
 ##Installation:
 
@@ -39,4 +39,8 @@ Even though there are several MOOC lists and rating sites out there, none of the
 7. Collect the Data and fill your databases with ```python collect_data.py```
 8. Profit
 
+
+##Testing:
+
+1. You can run  ```nosetests --with-coverage``` to run the unit tests.
 
