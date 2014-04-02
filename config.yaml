@@ -1,8 +1,10 @@
 #configure the wisdom system
 providers: [Coursera]
-storage_engines: [MongoDB]
+storage_engines: [SQL, MongoDB]
 
 storage_configs:
     MongoDB:
         db: development
         unit_test_collection: unit_tests
+    SQL:
+        connection_string: postgresql://wisdom_admin:wisdom_admin@localhost/wisdom
