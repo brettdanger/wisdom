@@ -8,21 +8,21 @@ Wisdom Backend is a Massive Open Online Course (MOOC) aggregation engine that is
 
 ###Currently Supported Storage Engines:
 
-    -  Any [SQLAlchemy supported RDBMS/Dialects](http://docs.sqlalchemy.org/en/rel_0_9/dialects/index.html) including:
-        -  Drizzle
-        - Firebird
-        - Microsoft SQL Server
-        - MySQL (tested)
-        - Oracle
-        - PostgreSQL (tested)
-        - SQLite
-        - Sybase
-    - MongoDB
+-  Any [SQLAlchemy supported RDBMS/Dialects](http://docs.sqlalchemy.org/en/rel_0_9/dialects/index.html) including:
+    -  Drizzle
+    - Firebird
+    - Microsoft SQL Server
+    - MySQL (tested)
+    - Oracle
+    - PostgreSQL (tested)
+    - SQLite
+    - Sybase
+- MongoDB
 
 ###Currently working on:
     
-    - edX provider engine
-    - Elastic Search storage engine (for some cool NLP stuff)
+- edX provider engine
+- Elastic Search storage engine (for some cool NLP stuff)
 
 ###Purpose:
     
@@ -30,12 +30,12 @@ Wisdom Backend is a Massive Open Online Course (MOOC) aggregation engine that is
 
 ##Installation:
 
-    1. Clone the repo, then activate the virtualenv with ```virtualenv .``` *assuming you have virtualenv installed*
-    2. Activate the virtualenv ```source bin/activate```
-    3. Install the PIP packages ```pip install - r requirements.txt```
-    4. Configure the config.yaml to include your settings for your DB engine
-    5. If you are using a SQL RDBMS, set your connection string in the config file and run ```python storage/sql_setup/db_setup.py``` to create the tables and schemas
-    6. Collect the Data and fill your databases with ```python collect_data.py```
-    7. Profit
+1. Clone the repo, then activate the virtualenv with ```virtualenv .``` *assuming you have virtualenv installed*
+2. Activate the virtualenv ```source bin/activate```
+3. Install the PIP packages ```pip install - r requirements.txt```
+4. Configure the config.yaml to include your settings for your DB engine
+5. If you are using a SQL RDBMS, set your connection string in the config file and run ```python storage/sql_setup/db_setup.py``` to create the tables and schemas
+6. Collect the Data and fill your databases with ```python collect_data.py```
+7. Profit
 
 
