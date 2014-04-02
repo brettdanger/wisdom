@@ -4,7 +4,7 @@ Wisdom Backend is a Massive Open Online Course (MOOC) aggregation engine that is
 
 ###Currently Supported Providers:
 
-    - Coursera
+- Coursera
 
 ###Currently Supported Storage Engines:
 
@@ -25,7 +25,7 @@ Wisdom Backend is a Massive Open Online Course (MOOC) aggregation engine that is
 - Elastic Search storage engine (for some cool NLP stuff)
 
 ###Purpose:
-    
+
 Even though there are several MOOC lists and rating sites out there, none of them are very good.  I also want to build a full- stack site with ratings and collaboration tools, this is step 1.  Others are welcome to use to build something cool, please contribute storage engines or provider engines if you build them.  You can follow my progress on the full stack site at brettdangerfield.com.
 
 ##Installation:
