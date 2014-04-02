@@ -4,9 +4,21 @@ from pymongo import ASCENDING
 
 
 class MongoDB(StorageBase):
+    #do not override here, place this in the YAML configuration config.yaml
+    config = {
+        "server": "localhost",
+        "db": "wisdom",
+        "collection": "courses"}
+
     def __init__(self):
-        self.db = pymongo.MongoClient().wisdom
-        self.collection = "courses"  # default session
+        config = self.get_config(self.__class__.__name__)  # call the super init method to get config
+
+        if config is not None:
+            for item in config:
+                self.config[item] = config[item]
+
+        connection = pymongo.MongoClient(self.config["server"])
+        self.db = connection[self.config["db"]]
 
     def store_courses(self, courses):
         #we can't bulk upsert so lets loop and upsert

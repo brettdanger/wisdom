@@ -1,9 +1,13 @@
 from providers import *
 import importlib
+import yaml
 
 
-provider_list = ["Coursera"]
-storage_list = ["MongoDB"]
+#get the configuration
+config = yaml.load(open('config.yaml'))
+
+provider_list = config["providers"]
+storage_list = config["storage_engines"]
 
 for provider in provider_list:
     print "Collecting Courses for provider: {}".format(provider)

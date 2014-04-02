@@ -1,0 +1,8 @@
+#configure the wisdom system
+providers: [Coursera]
+storage_engines: [MongoDB]
+
+storage_configs:
+    MongoDB:
+        db: development
+        unit_test_collection: unit_tests
