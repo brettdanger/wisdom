@@ -1,4 +1,3 @@
-from providers import *
 import importlib
 import yaml
 
@@ -20,4 +19,4 @@ for provider in provider_list:
         print "Saving Courses into Engine: {}".format(store)
         mod = importlib.import_module("storage." + store.lower())
         func = getattr(mod, store)()
-        data = getattr(func, "store_courses")(data)
+        getattr(func, "store_courses")(data)

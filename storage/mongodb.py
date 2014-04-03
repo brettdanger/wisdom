@@ -17,6 +17,8 @@ class MongoDB(StorageBase):
             for item in config:
                 self.config[item] = config[item]
 
+        self.collection = self.config["collection"]
+
         connection = pymongo.MongoClient(self.config["server"])
         self.db = connection[self.config["db"]]
 

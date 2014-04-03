@@ -19,7 +19,8 @@ class MongoTest(unittest.TestCase):
             data = f.read()
             self.courses = json.loads(data)
 
-        self.mongo = pymongo.MongoClient().development
+        mongodb = pymongo.MongoClient()
+        self.mongo = mongodb[self.config['db']]
 
         #drop the unit_test collection
         self.mongo[self.config['unit_test_collection']].drop()

@@ -4,7 +4,7 @@ storage_engines: [SQL, MongoDB]
 
 storage_configs:
     MongoDB:
-        db: development
+        db: wisdom
         unit_test_collection: unit_tests
     SQL:
-        connection_string: postgresql://wisdom_admin:wisdom_admin@localhost/wisdom
+        connection_string: postgresql://wisdom_backend:wisdom_backend@localhost/wisdom
